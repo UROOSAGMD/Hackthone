@@ -1,0 +1,33 @@
+ /* App.css - for app-level customization */
+.navbar-brand {
+  font-weight: 700;
+  font-size: 1.5rem;
+}
+
+.btn-primary {
+  background-color: #0066ff;
+  border: none;
+}
+
+.btn-primary:hover {
+  background-color: #0052cc;
+}
+
+input, textarea {
+  border-radius: 5px;
+}
+
+.dropdown-menu {
+  transition: opacity 0.3s ease;
+  border: none;
+  box-shadow: 0 4px 8px rgba(0,0,0,0.1);
+}
+
+.dashboard-box {
+  transition: background-color 0.3s ease;
+}
+
+.dashboard-box:hover {
+  background-color: #4a90e2; /* Blue on hover */
+  color: #fff; /* Text white for visibility */
+}
